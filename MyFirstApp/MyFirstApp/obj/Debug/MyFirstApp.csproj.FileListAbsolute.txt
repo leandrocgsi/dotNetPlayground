@@ -1,0 +1,9 @@
+D:\Dropbox\OldStuffs\C# Playground\MyFirstApp\MyFirstApp\bin\Debug\MyFirstApp.exe.config
+D:\Dropbox\OldStuffs\C# Playground\MyFirstApp\MyFirstApp\bin\Debug\MyFirstApp.exe
+D:\Dropbox\OldStuffs\C# Playground\MyFirstApp\MyFirstApp\bin\Debug\MyFirstApp.pdb
+D:\Dropbox\OldStuffs\C# Playground\MyFirstApp\MyFirstApp\obj\Debug\MyFirstApp.csprojResolveAssemblyReference.cache
+D:\Dropbox\OldStuffs\C# Playground\MyFirstApp\MyFirstApp\obj\Debug\MyFirstApp.Form1.resources
+D:\Dropbox\OldStuffs\C# Playground\MyFirstApp\MyFirstApp\obj\Debug\MyFirstApp.Properties.Resources.resources
+D:\Dropbox\OldStuffs\C# Playground\MyFirstApp\MyFirstApp\obj\Debug\MyFirstApp.csproj.GenerateResource.Cache
+D:\Dropbox\OldStuffs\C# Playground\MyFirstApp\MyFirstApp\obj\Debug\MyFirstApp.exe
+D:\Dropbox\OldStuffs\C# Playground\MyFirstApp\MyFirstApp\obj\Debug\MyFirstApp.pdb
