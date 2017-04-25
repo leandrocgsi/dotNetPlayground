@@ -26,5 +26,10 @@ namespace MyFirstApp
         {
             MessageBox.Show("You are hovering your mouse over the button", "My Message Box");
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
