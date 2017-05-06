@@ -19,8 +19,11 @@ namespace MyFirstApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string name = "Leandro da Costa";
-            MessageBox.Show("Hello C# - We are here! " + name, "My Message Box");
+            //string name = "Leandro da Costa";
+            //MessageBox.Show("Hello C# - We are here! " + name, "Name Message Box");
+            int number = 5;
+            MessageBox.Show("Working with int! " + number.ToString(), "Number Message Box");
+
         }
 
     }
