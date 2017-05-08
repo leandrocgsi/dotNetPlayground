@@ -23,10 +23,16 @@ namespace MyFirstApp
             //MessageBox.Show("Hello C# - We are here! " + name, "Name Message Box");
             //int number = 5;
             //MessageBox.Show("Working with int! " + number.ToString(), "Number Message Box");
-            bool redHair = false;
-            MessageBox.Show("Working with bool! " + redHair.ToString(), "Bool Message Box");
+            //bool redHair = false;
+            //MessageBox.Show("Working with bool! " + redHair.ToString(), "Bool Message Box");
+            object myObject = true;
+            MessageBox.Show("Working with object! " + myObject.ToString(), "Object Message Box");
 
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
