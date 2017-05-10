@@ -19,14 +19,15 @@ namespace MyFirstApp
 
         private void button1_Click(object sender, EventArgs e)
         {
+            button1.Text = "Say Hello";
             //string name = "Leandro da Costa";
             //MessageBox.Show("Hello C# - We are here! " + name, "Name Message Box");
             //int number = 5;
             //MessageBox.Show("Working with int! " + number.ToString(), "Number Message Box");
             //bool redHair = false;
             //MessageBox.Show("Working with bool! " + redHair.ToString(), "Bool Message Box");
-            object myObject = true;
-            MessageBox.Show("Working with object! " + myObject.ToString(), "Object Message Box");
+            //object myObject = true;
+            //MessageBox.Show("Working with object! " + myObject.ToString(), "Object Message Box");
 
         }
 
