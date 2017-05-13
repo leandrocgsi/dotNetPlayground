@@ -21,7 +21,9 @@ namespace MyFirstApp
         {
             //button1.Text = "Say Hello";
             button1.Enabled = false;
-            
+            button1.Height = 60;
+
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
