@@ -20,7 +20,7 @@ namespace MyFirstApp
         private void button1_Click(object sender, EventArgs e)
         {
             //button1.Text = "Say Hello";
-            button1.Enabled = false;
+            //button1.Enabled = false;
             button1.Height = 60;
 
 
