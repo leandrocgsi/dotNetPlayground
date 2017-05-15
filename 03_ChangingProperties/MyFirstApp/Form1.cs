@@ -21,12 +21,17 @@ namespace MyFirstApp
         {
             //button1.Text = "Say Hello";
             //button1.Enabled = false;
-            button1.Height = 60;
-
+            //button1.Height = 60;
+            textBox1.Text = "Hello C#!";
 
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
