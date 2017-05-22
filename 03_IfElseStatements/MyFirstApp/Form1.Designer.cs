@@ -46,6 +46,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(12, 48);
+            this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(355, 22);
             this.textBox1.TabIndex = 1;
             // 
@@ -58,6 +59,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
