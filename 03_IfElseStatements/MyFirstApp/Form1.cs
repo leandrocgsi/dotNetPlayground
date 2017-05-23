@@ -19,6 +19,17 @@ namespace MyFirstApp
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (!textBox1.Text.Equals("Leandro"))
+            {
+                MessageBox.Show("Hello");
+            } else
+            {
+                MessageBox.Show("Hello Leandro");
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
     }
