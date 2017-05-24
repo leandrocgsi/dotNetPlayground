@@ -22,7 +22,10 @@ namespace MyFirstApp
             if (!textBox1.Text.Equals("Leandro"))
             {
                 MessageBox.Show("Hello");
-            } else
+            } else if (!textBox1.Text.Equals("Flávio"))
+            {
+                MessageBox.Show("Hello Flávio");
+            } else 
             {
                 MessageBox.Show("Hello Leandro");
             }
