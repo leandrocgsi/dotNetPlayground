@@ -19,15 +19,11 @@ namespace MyFirstApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (!textBox1.Text.Equals("Leandro"))
+            switch (textBox1.Text)
             {
-                MessageBox.Show("Hello");
-            } else if (!textBox1.Text.Equals("Flávio"))
-            {
-                MessageBox.Show("Hello Flávio");
-            } else 
-            {
-                MessageBox.Show("Hello Leandro");
+                case "Leandro":
+                     MessageBox.Show("Hello Leandro");
+                    break;
             }
         }
     }
