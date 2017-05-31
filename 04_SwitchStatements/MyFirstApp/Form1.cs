@@ -19,13 +19,16 @@ namespace MyFirstApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            switch (textBox1.Text)
+            switch (textBox2.Text)
             {
                 case "Leandro":
                     MessageBox.Show("Hello Leandro");
                     break;
                 case "Flávio":
                     MessageBox.Show("Hello Flávio");
+                    break;
+                default:
+                    MessageBox.Show("Your name isn't important!");
                     break;
             }
         }
