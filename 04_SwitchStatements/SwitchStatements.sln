@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfElseStatements", "MyFirstApp\IfElseStatements.csproj", "{8CB8C045-9230-4542-9320-71DFDB4169A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchStatements", "MyFirstApp\SwitchStatements.csproj", "{8CB8C045-9230-4542-9320-71DFDB4169A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
