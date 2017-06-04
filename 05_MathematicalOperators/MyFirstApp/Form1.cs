@@ -36,8 +36,7 @@ namespace MyFirstApp
             //MessageBox.Show((a / b).ToString());
 
             int a = 5;
-            int b = 3;
-
+            
             //add
             //a = a + 4;
             a += 4;
