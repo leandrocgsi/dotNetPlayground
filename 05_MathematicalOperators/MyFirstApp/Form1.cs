@@ -19,9 +19,13 @@ namespace MyFirstApp
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //int a = 5;
+            //int b = 3;
+            //MessageBox.Show((a + b).ToString());
+
             int a = 5;
             int b = 3;
-            MessageBox.Show((a + b).ToString());
+            MessageBox.Show((a - b).ToString());
         }
     }
 }
