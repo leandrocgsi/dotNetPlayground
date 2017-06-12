@@ -31,9 +31,17 @@ namespace MyFirstApp
             //int b = 3;
             //MessageBox.Show((a * b).ToString());
 
+            //int a = 5;
+            //int b = 3;
+            //MessageBox.Show((a / b).ToString());
+
             int a = 5;
             int b = 3;
-            MessageBox.Show((a / b).ToString());
+
+            //add
+            //a = a + 4;
+            a += 4;
+            MessageBox.Show(a.ToString());
         }
     }
 }
