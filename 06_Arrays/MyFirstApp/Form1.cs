@@ -20,6 +20,8 @@ namespace MyFirstApp
         private void button1_Click(object sender, EventArgs e)
         {
             string[] names = { "Leandro", "Flávio" };
+            //string[] names = new string[5];
+            //names[0] = "Diego";
             string name = names[0];
             MessageBox.Show(name);
         }
