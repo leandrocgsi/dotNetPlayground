@@ -19,6 +19,8 @@ namespace MyFirstApp
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string myArray = new string[5];
+
             //MessageBox.Show(name);
         }
     }
