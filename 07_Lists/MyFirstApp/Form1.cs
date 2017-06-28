@@ -19,7 +19,8 @@ namespace MyFirstApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string myArray = new string[5];
+            //string myArray = new string[5];
+            List<string> names = new List<string>();
 
             //MessageBox.Show(name);
         }
