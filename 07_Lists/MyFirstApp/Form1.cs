@@ -22,6 +22,7 @@ namespace MyFirstApp
             //string myArray = new string[5];
             List<string> names = new List<string>();
             names.Add("Leandro");
+            names.Add("Flávio");
             string name = names[0];
 
             MessageBox.Show(name);
