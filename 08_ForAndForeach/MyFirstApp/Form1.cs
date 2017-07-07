@@ -19,13 +19,7 @@ namespace MyFirstApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //string myArray = new string[5];
-            List<string> names = new List<string>();
-            names.Add("Leandro");
-            names.Add("Flávio");
-            string name = names[0];
 
-            MessageBox.Show(name);
         }
     }
 }
