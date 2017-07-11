@@ -25,6 +25,11 @@ namespace MyFirstApp
                 MessageBox.Show("Hello " + i.ToString());
             }
              */
+            string[] names = { "Leandro", "Flávio", "Ana" };
+            foreach (string s in names)
+            {
+                MessageBox.Show("Hello " + s);
+            }
         }
     }
 }
