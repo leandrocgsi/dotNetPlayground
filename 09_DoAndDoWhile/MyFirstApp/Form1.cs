@@ -19,22 +19,28 @@ namespace MyFirstApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            /*
-             for (int i = 0; i < 5; i++)
-            {
-                MessageBox.Show("Hello " + i.ToString());
-            }
-             */
-            //string[] names = { "Leandro", "Flávio", "Ana" };
-            List<string> names = new List<string>();
-            names.add("Leandro");
-            names.add("Flávio");
-            names.add("Ana");
+            //int a = 5;
+            //int b = 3;
+            //MessageBox.Show((a + b).ToString());
 
-            foreach (string s in names)
-            {
-                MessageBox.Show("Hello " + s);
-            }
+            //int a = 5;
+            //int b = 3;
+            //MessageBox.Show((a - b).ToString());
+
+            //int a = 5;
+            //int b = 3;
+            //MessageBox.Show((a * b).ToString());
+
+            //int a = 5;
+            //int b = 3;
+            //MessageBox.Show((a / b).ToString());
+
+            int a = 5;
+            
+            //add
+            //a = a + 4;
+            a += 4;
+            MessageBox.Show(a.ToString());
         }
     }
 }
