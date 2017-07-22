@@ -19,8 +19,12 @@ namespace MyFirstApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-            //MessageBox.Show(a.ToString());
+            int i = 0;
+            while (i < 10)
+            {
+                textBox1.Text += i.ToString();
+                i++;
+            }
         }
     }
 }
