@@ -22,7 +22,7 @@ namespace MyFirstApp
             int i = 0;
             while (i < 10)
             {
-                textBox1.Text += i.ToString();
+                textBox2.Text += i.ToString();
                 i++;
             }
         }
