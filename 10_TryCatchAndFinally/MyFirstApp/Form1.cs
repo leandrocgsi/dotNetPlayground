@@ -19,20 +19,8 @@ namespace MyFirstApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int i = 0;
-            /*
-            while (i < 10)
-            {
-                textBox2.Text += i.ToString();
-                i++;
-            }
-            */
-            do
-            {
-                textBox2.Text += i.ToString();
-                i++;
-            }
-            while (i < 10);
+
+//                textBox2.Text += i.ToString();
         }
     }
 }
