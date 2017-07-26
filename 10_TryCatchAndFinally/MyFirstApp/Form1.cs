@@ -19,7 +19,10 @@ namespace MyFirstApp
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string[] names = new string[2];
 
+            //Simulating IndexOutRangeexception
+            string name = names[2];
 //                textBox2.Text += i.ToString();
         }
     }
