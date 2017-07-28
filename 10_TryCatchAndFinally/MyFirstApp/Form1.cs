@@ -31,7 +31,7 @@ namespace MyFirstApp
             {
                 MessageBox.Show("There was an error");
             }
-//                textBox2.Text += i.ToString();
+
         }
     }
 }
