@@ -22,7 +22,15 @@ namespace MyFirstApp
             string[] names = new string[2];
 
             //Simulating IndexOutRangeexception
-            string name = names[2];
+            //string name = names[2];
+            try
+            {
+                string name = names[2];
+            }
+            catch
+            {
+                MessageBox.Show("There was an error");
+            }
 //                textBox2.Text += i.ToString();
         }
     }
