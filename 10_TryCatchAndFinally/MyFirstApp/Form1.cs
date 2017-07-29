@@ -27,10 +27,10 @@ namespace MyFirstApp
             {
                 string name = names[2];
             }
-            catch
+            /*catch
             {
                 MessageBox.Show("There was an error");
-            }
+            }*/
 
         }
     }
