@@ -31,6 +31,10 @@ namespace MyFirstApp
             {
                 MessageBox.Show("There was an error");
             }*/
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
 
         }
     }
