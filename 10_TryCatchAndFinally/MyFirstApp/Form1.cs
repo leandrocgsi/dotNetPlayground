@@ -35,6 +35,10 @@ namespace MyFirstApp
             {
                 MessageBox.Show(ex.Message);
             }
+            finally
+            {
+                MessageBox.Show("Your code is done!");
+            }
 
         }
     }
