@@ -19,26 +19,7 @@ namespace MyFirstApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string[] names = new string[2];
 
-            //Simulating IndexOutRangeexception
-            //string name = names[2];
-            try
-            {
-                string name = names[2];
-            }
-            /*catch
-            {
-                MessageBox.Show("There was an error");
-            }*/
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            {
-                MessageBox.Show("Your code is done!");
-            }
         }
     }
 }
