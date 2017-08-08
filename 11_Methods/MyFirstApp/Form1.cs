@@ -19,7 +19,12 @@ namespace MyFirstApp
 
         private void button1_Click(object sender, EventArgs e)
         {
+            message();
+        }
 
+        void message()
+        {
+            MessageBox.Show("Hello");
         }
     }
 }
