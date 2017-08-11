@@ -19,17 +19,17 @@ namespace MyFirstApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            message();
+            message("Hello Leandro");
         }
 
-        void message()
+        void message(string message)
         {
-            MessageBox.Show("Hello");
+            MessageBox.Show(message);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            message();
+            message("Hello Flávio");
         }
     }
 }
