@@ -22,14 +22,14 @@ namespace MyFirstApp
             message("Hello Leandro");
         }
 
-        void message(string message)
-        {
-            MessageBox.Show(message);
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             message("Hello Flávio");
+        }
+
+        void message(string message)
+        {
+            MessageBox.Show(message);
         }
     }
 }
