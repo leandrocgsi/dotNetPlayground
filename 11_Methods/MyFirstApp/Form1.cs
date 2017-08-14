@@ -21,6 +21,7 @@ namespace MyFirstApp
         {
             //message();
             //message("Hello Leandro");
+            message("Hello Leandro", "Hello");
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -39,7 +40,7 @@ namespace MyFirstApp
             MessageBox.Show(message);
         }
         */
-        void message(string message)
+        void message(string message, string title)
         {
             MessageBox.Show(message);
         }
