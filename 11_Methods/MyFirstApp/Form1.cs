@@ -28,6 +28,7 @@ namespace MyFirstApp
         {
             //message();
             //message("Hello Flávio");
+            message("Hello Flávio", "Hello");
         }
         /*
         void message()
