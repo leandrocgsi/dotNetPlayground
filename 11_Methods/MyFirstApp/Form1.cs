@@ -43,7 +43,7 @@ namespace MyFirstApp
         */
         void message(string message, string title)
         {
-            MessageBox.Show(message);
+            MessageBox.Show(message, title);
         }
     }
 }
