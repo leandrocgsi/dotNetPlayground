@@ -12,17 +12,12 @@ namespace MyFirstApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            message("Hello Leandro", "Hello");
+            myMethod("Leandro");
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        string myMethod(string name)
         {
-            message("Hello Flávio", "Hello");
-        }
-
-        void message(string message, string title)
-        {
-            MessageBox.Show(message, title);
+            return name;
         }
     }
 }
