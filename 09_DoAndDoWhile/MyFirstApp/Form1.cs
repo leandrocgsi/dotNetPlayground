@@ -26,7 +26,13 @@ namespace MyFirstApp
                 textBox2.Text += i.ToString();
                 i++;
             }
-             */
+            */
+            do
+            {
+                textBox2.Text += i.ToString();
+                i++;
+            }
+            while (i < 10);
         }
     }
 }
