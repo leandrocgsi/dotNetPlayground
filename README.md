@@ -1,2 +1,2 @@
-dotNetPlayground
+.NET Playground
 ================
